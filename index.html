@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+</head>
+<body>
+
+    <! -- Home Desktop -->
+    <header class="max-width bg" id="home">
+        <div class="container">
+            <div class="menu">
+                <div class="logo"></div>
+                <div class="desktop-menu">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#service">Serviços</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="Tela de login/index.html">Entrar</a></li>
+                    </ul>
+                </div>
+                <! -- Desktop mobile -->
+                <div class="mobile-menu" onclick="myFuction()">
+                    <i class="fa-solid fa-bars"></i>
+                    <ul id="myLinks">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#service">Serviços</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="Tela de login/index.html">Entrar</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="call">
+                <div class="left">
+                    <img src="Imagens/prato.jpg" alt="">
+                </div>
+                <div class="right">
+                    <h1 class="colo-laranja text-gd">Restaurante X</h1>
+                    <h2 class="colo-cinza1 text-md">Experimente a melhor comida da região</h2>
+                    <p class="text-pq">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea corporis et minima iure at,reiciendis veritatis accusantium pariatur nihil?</p>
+                    <button>Ver Menu</button>
+                </div>
+            </div>
+        </div>
+        <button id="back-to-top">^</button>
+    </header>
+
+    <! -- About -->
+    <section class="max-wigth bg" id="about">
+        <div class="container">
+            <div class="call">
+                <div class="left">
+                    <span class="text-title colo-laranja">Sobre Nós</span>
+                    <h2 class="text-md colo-cinza1">Nós cozinhamos a comida mais saborosa</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Illum ipsam eum voluptas, nulla consequatur et.</p>
+                    <button>Saiba Mais</button>
+                </div>
+                <div class="right">
+                    <img src="Imagens/prato 1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <! -- Service -->
+    <section class="max-wigth bg" id="service">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <span class="text-title colo-laranja">Ofertas</span>
+                    <h2 class="text-md colo-cinza1">Nossos Serviços</h2>
+                </div>
+                <div class="down">
+                    <div class="box">
+                        <i class="fa fa-cutlery text-gd colo-laranja"></i>
+                        <h2>A melhor comida</h2> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, eveniet.</p>
+                    </div>
+                    <div class="box">
+                        <i class="fa fa-motorcycle text-gd colo-laranja"></i>
+                        <h2>Entrega</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, eveniet.</p>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-pizza-slice text-gd colo-laranja"></i>
+                        <h2>Comida rápida</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, eveniet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <! -- Menu -->
+    <section class="max-wigth bg" id="menu">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <span class="text-title colo-laranja">Prato do dia</span>
+                    <h2 class="text-md colo-cinza1">Cardápio do dia</h2>
+                </div>
+                <div class="down">
+                    <div class="box">
+                        <img src="Imagens/prato 2.jpg" alt="">
+                        <h2 class="colo-laranja">Carne e legumes</h2>
+                        <p class="text-md">Prato delicioso</p>
+                        <p>R$22,98</p>
+                    </div>
+                    <div class="box">
+                        <img src="Imagens/prato 3.jpg" alt="">
+                        <h2 class="colo-laranja">Carne e cogumelo</h2>
+                        <p class="text-md">Prato delicioso</p>
+                        <p>R$22,98</p>
+                    </div>
+                    <div class="box">
+                        <img src="Imagens/prato 4.jpg" alt="">
+                        <h2 class="colo-laranja">Frango e salada</h2>
+                        <p class="text-md">Prato delicioso</p>
+                        <p>R$22,98</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <! -- Contato -->
+    <section class="max-width bg" id="contato">
+        <div class="container">
+            <div class="call">
+                <div class="left">
+                    <span class="text-title colo-laranja">App</span>
+                    <h2 class="text-md colo-cinza1">O aplicativo está disponivel</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolor reiciendis, error vitae amet totam aspernatur eligendi officiis asperiores modi cupiditate delectus est perferendis repudiandae minima corporis ea id veritatis. Nulla.</p>
+                    <div class="info">
+                        <img src="Imagens/app play.png" alt="">
+                        <img src="Imagens/google play.png" alt="">
+                    </div>
+                </div>
+                <div class="right">
+                    <img src="Imagens/dowload.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <! -- footer -->
+    <footer>
+        <div class="container">
+            <img src="Imagens/Restaurante X.png" alt="">
+            <p class="text-pq">Copyright 2023. All Rights Reserved</p>
+            <p class="text-pq">Tel: 6621-8874</p>
+        </div>
+    </footer>
+
+    <script>
+        // Botão back-to-top
+
+        var btn = document.querySelector("#back-to-top");
+
+        btn.addEventListener("click", function(){
+            window.scrollTo(0,0);
+        })
+
+        // Menu mobile
+
+        function myFuction(){
+            var x = document.getElementById("myLinks")
+            if (x.style.display === "block"){
+                x.style.display = "none";
+            }else{
+                x.style.display = "block"
+            }
+        }
+    </script>
+</body>
+</html>
